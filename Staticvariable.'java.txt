@@ -1,0 +1,18 @@
+public class Staticexample{
+static int a=10;
+static float b=20.0f;
+static double c=20.35;
+static long d=2000;
+static double e= a+b+c+d;
+static void show(){
+System.out .println("Integer value :"+a);
+System.out .println("Float value :"+b);
+System.out .println("Double value :"+c);
+System.out .println("Long value :"+d);
+System.out .println("Final value :"+e);
+}
+public static void main(String[]args){
+Staticexample.show();
+}
+}
+
